@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="/paynow.css">
+
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        .main{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+        
+        }
+        .main1{
+            height: 100vh;
+            width: 50%;
+            background-size: cover;
+            background-image: url(carts.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: rgba(0,0,0,0.7);
+
+        
+        }
+        .mainlogin{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color:rgba(0, 0, 0, 0.7);
+}
+        .main2{
+            height: 100vh;
+            width: 50%;
+            background-color: rgb(235, 239, 217);
+            font-size: medium;
+        
+        }
+        .main2 h4{
+            font-size: 37px;
+            padding: 35px;
+        }
+        .main11{
+            width: 657px;
+        }
+        .box{
+      display: flex;
+      gap: 10px;
+      margin-left: 183px;
+      margin-bottom: 50px;
+}
+  
+    </style>
+</head>
+<body>
+   
+    <!------------>
+    <div class="main">
+        <div class="main1">
+            <div class="mainlogin">
+        </div>
+        </div>
+        <div class="main2">
+            <div class="login-info" style="margin-top: 30px;">
+                <div class="info" style="display: flex;align-items: center;margin-bottom: 40px;">
+                <i class="fa-solid fa-xmark" style="margin-top: 0px;margin-left: 15px; margin-right: 245px;"></i>
+                <h4>Pyment</h4>
+            </div>
+            
+                <input type="text" placeholder="Card number" class="dos" style="width: 350px;height: 70px;border-radius: 15px;margin-left: 180px;margin-bottom: 20px;padding-left:10px;"><br>
+                <input type="text" placeholder="Exp.date" class="dos1" style="width: 160px;height: 70px;border-radius: 15px;margin-left: 180px;margin-bottom:20px;padding-left:10px;">
+                <input type="text" placeholder="CVV" class="dos2" style="width: 160px;height: 70px;border-radius: 15px;margin-left: 10px;margin-bottom:20px;padding-left:10px;"><br>
+
+
+                <input type="text" placeholder="Name on card" style="width: 350px;height: 70px;border-radius: 15px;margin-left: 180px;margin-bottom: 30px;padding-left:10px;">
+                <div class="box">
+                    <div class=box1><input type="checkbox"></div>
+                    <div class="box2">Use shipping address as billing address</div>
+                                            </div>
+                                            <p style="font-weight: 5px; margin-left: 183px;margin-bottom: 20px;">Remember me </p>
+
+                                            <div class="box" style="margin-bottom: 200px;">
+                                                <div class=box1><input type="checkbox"></div>
+                                                <div class="box2">Save my information for faster checkout</div>
+                                                                        </div>
+<button style="width: 98%;height: 40px;background-color: blue;color: white;margin-left: 6px;border: none;"><a href="/confirm.html" style="text-decoration: none; color: white;" >Pay Now</a></button>
+
+
+
+
+
+        </div>
+    </div>
+</body>
+</html>
